@@ -20,7 +20,7 @@ Dashboard Interactivo de Exportaciones de Chocolates")
 # Filtro de país 
 paises = exportaciones["País"].unique() 
 pais_seleccionado = st.selectbox("Selecciona un país para ver los detalles", paises) 
-# Mostrar datos de clientes
+# Mostrar datos de clientes 
 st.subheader("         
 Clientes") 
 clientes_filtrados = clientes[clientes["País"] == pais_seleccionado] 
